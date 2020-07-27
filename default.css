@@ -8,6 +8,12 @@
     --secondaryText: #4b5156;
 
     --themeDotBorder: #24292e;
+
+    --previewBg:rgb(251, 249, 243, 0.8);
+    --previewShadow:#f0ead6;
+
+
+    --buttonColor:black;
 }
 
 
@@ -212,6 +218,14 @@ ul {
 
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#preview {
+    width: 300px;
+    border: 1.5px solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 15px;
+    position: relative;
 }
 
 @media screen and (max-width: 1200px){
