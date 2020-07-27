@@ -197,6 +197,14 @@ ul {
     border-width: 5px;
 }
 
+#light-mode {
+    background-color: #fff;
+}
+
+#blue-mode {
+    background-color: #192734;
+}
+
 .right-column {
     grid-area: right-column;
     display: grid;
