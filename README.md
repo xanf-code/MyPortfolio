@@ -5,7 +5,7 @@
 ## CheckList:
 
 - [x] Portfolio - light mode
-- [ ] Upload Resume
+- [x] Upload Resume
 - [ ] Dynamic theme
 
 ## Live
