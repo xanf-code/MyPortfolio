@@ -220,12 +220,52 @@ ul {
     padding-bottom: 50px;
 }
 
+
+#preview-shadow {
+    background-color: var(--previewShadow);
+    max-width: 300px;
+    height: 180px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
 #preview {
     width: 300px;
     border: 1.5px solid #17a2b8;
     background-color: var(--previewBg);
     padding: 15px;
     position: relative;
+}
+
+.corner {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1.5px solid #17a2b8;
+    background-color: #fff;
+    position: absolute;
+}
+
+#corner-tl {
+    top: -5px;
+    left: -5px
+}
+
+#corner-tr {
+    top: -5px;
+    right: -5px
+}
+
+
+#corner-br {
+    bottom: -5px;
+    right: -5px
+}
+
+
+#corner-bl {
+    bottom: -5px;
+    left: -5px
 }
 
 @media screen and (max-width: 1200px){
