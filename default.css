@@ -112,6 +112,17 @@ ul {
     background-color: var(--mainColor);
 }
 
+#navigation {
+    margin: 0;
+    padding: 10px;
+}
+
+#navigation li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 .dots-wrapper {
     display: flex;
     padding: 10px;
