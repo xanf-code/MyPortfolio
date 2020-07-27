@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6, strong{
     font-family: 'Russo One',
     sans-serif;
     color: var(--mainText);
+    font-weight: 500;
 }
 
 p, li, span, label, input, textarea {
@@ -74,6 +75,31 @@ ul {
 .main-container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.greeting-wrapper{
+    display: grid;
+    text-align: center;
+    align-content: center;
+    border: 2px dashed lightcoral;
+    min-height: 20em;
+}
+
+.intro-wrapper {
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+
+
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'nav-wrapper nav-wrapper'
+        'left-column right-column';
 }
 
 @media screen and (max-width: 1200px){
