@@ -15,10 +15,14 @@ html , body {
 }
 
 h1, h2, h3, h4, h5, h6, strong{
+    font-family: 'Russo One',
+    sans-serif;
     color: var(--mainText);
 }
 
 p, li, span, label, input, textarea {
+    font-family: 'Roboto Mono',
+    monospace;
     color: var(--secondaryText);
 }
 
@@ -44,6 +48,15 @@ h5 {
 
 h6 {
     font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #17a2b8;
+}
+
+ul {
+    list-style: none;
 }
 
 .s1 {
