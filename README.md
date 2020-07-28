@@ -8,6 +8,10 @@
 - [x] Upload Resume
 - [ ] Dynamic theme
 
+## Working for ya'll noobsxD
+
+![DemoLOLxD](resources/API/APICall.png "APICall Demo")
+
 ## Live
 
  [Live - Portfolio](https://darshanaswath.herokuapp.com/)
