@@ -1,5 +1,5 @@
 :root {
-    --mainColor: #eaeaea;
+    --mainColor: #ebecf1;
     --secondaryColor: #fff;
 
     --borderColor: #c1c1c1;
@@ -11,10 +11,6 @@
 
     --previewBg: rgb(251, 249, 243, 0.8);
     --previewShadow: #f0ead6;
-
-
-    --buttonColor: black;
-
 
 }
 
@@ -122,9 +118,9 @@ h6 {
     border-radius: 5px 5px 0 0;
 
 
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 9px 36px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 9px 36px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 9px 36px -10px rgba(0, 0, 0, 0.75);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -248,7 +244,6 @@ h6 {
     grid-area: right-column;
     display: grid;
     align-content: center;
-
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -256,7 +251,8 @@ h6 {
 
 #preview-shadow {
     background-color: var(--previewShadow);
-    max-width: 300px;
+    border-radius: 50% 20% / 10% 40%;
+    width: 300px;
     height: 180px;
     padding-left: 30px;
     padding-top: 30px;
@@ -264,22 +260,22 @@ h6 {
 
 #preview {
     width: 300px;
-    border: 1.5px solid #17a2b8;
     background-color: var(--previewBg);
-    padding: 15px;
+    border-radius: 50% 20% / 10% 40%;
+    padding: 15px 25px;
     position: relative;
 }
 
-.corner {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    border: 1.5px solid #17a2b8;
-    background-color: #fff;
-    position: absolute;
-}
 
-#corner-tl {
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 100px;
+
+}
+/* #corner-tl {
     top: -5px;
     left: -5px
 }
@@ -299,7 +295,7 @@ h6 {
 #corner-bl {
     bottom: -5px;
     left: -5px
-}
+} */
 
 .about-wrapper {
     display: grid;
